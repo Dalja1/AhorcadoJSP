@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+#titulo{
+    text-align: center;
+    font-size: 2.6em;
+    font-weight: 100;
+    margin: 1.5em 0;
+
+}
+
+.inicioSesion{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 10%);
+}
+
+.inicioSesion label{
+    display: block;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.inicioSesion input{
+    display: block;
+    margin: 1em auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: .7em 2em;
+    border: 1px solid gray;
+    font-size: 15px;
+}
+
+.inicioSesion button{
+    margin: 0.4em 0;
+    padding: .7em 3em;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    border: solid 1px;
+    background-color: #cc392a;
+    color: white;
+}
+
+.menu{
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px #888888;
+}
+
+.menu ul{
+    width: 100%;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: #FAFAFA;
+    position: relative;
+    height: 45px;
+}
+
+.menu ul li{
+    display: inline-block;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+}
+
+.menu ul li:hover{
+    background-color: #cc392c;
+    color: white;
+}
+
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 15px 5px;
+}
+
+.menu ul li a:hover{
+    color: white;
+}
+
+.menu ul li:first-child{
+    position: absolute;
+    left: 5em;
+}
+
+.menu ul li:last-child{
+    position: absolute;
+    right: 5em;
+}
+
+#informacion{
+    margin-top: 2em;
+}
+
+#informacion label{
+    display: block;
+    padding: 1em 0;
+    font-size: 1.5em;
+}
